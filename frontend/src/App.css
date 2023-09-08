@@ -1,0 +1,47 @@
+body {
+  background-color: white; 
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333; 
+}
+
+button {
+  background-color: rgb(13, 171, 119); 
+  color: white; 
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 0.8vh;
+  margin: 1vh;
+}
+
+button:disabled {
+  background-color: gray; 
+  cursor: not-allowed;
+}
+
+table {
+  width: 200vh;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 0.2vh solid #00796B; 
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(30, 32, 68); 
+  color: white; 
+}
+
